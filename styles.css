@@ -1,0 +1,96 @@
+body {
+    background-color: hsl(0, 0%, 98%);
+    color: hsl(234, 12%, 34%);
+    font-family: 'Poppins', sans-serif;
+    Font-size: 15px;
+    font-weight: 200;
+}
+
+div {
+
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 7px 12px 12px rgb(230, 230, 230), -7px 12px 7px rgb(240, 240, 240);
+    height: 250px;
+    margin: 0;
+    text-align: left;
+    width: 400px;
+}
+
+h1 {
+    font-weight: 200;
+    margin: 100px auto 50px;
+    text-align: center;
+    width: 400px;
+}
+
+span {
+    font-weight: 600;
+}
+.attribution {
+    font-size: 12px;
+    text-align: center;
+    color: hsl(228, 45%, 44%);
+}
+
+.attribution :hover{
+    color: hsl(34, 97%, 64%);
+}
+.bigBox {
+    width: 1400px;
+    height: 700px;
+    margin: 0 auto;
+    background-color: hsl(0, 0%, 98%);
+    box-shadow: none;
+    position: relative;
+}
+
+.intro {
+    width: 40%;
+    margin: 0 auto 40px;
+    text-align: center;
+}
+.image{
+    position: absolute;
+    right: 40px;
+    bottom: 40px;
+}
+.padding{
+    width: 300px;
+    height: 100px;
+    margin: auto;
+    box-shadow: none;
+  }
+
+/* BOXES */
+.supervisor{
+ border-top: 5px solid hsl(180, 62%, 55%);
+ position: absolute;
+ bottom: 175px;
+ left: 50px;
+
+}
+.build{
+    border-top: 5px solid hsl(0, 78%, 62%);
+    position: absolute;
+    left: 500px;
+    top: 50px;
+}
+.karma{
+    border-top: 5px solid hsl(34, 97%, 64%);
+    position: absolute;
+    left: 500px;
+    bottom: 50px;
+}
+.calculator{
+    border-top: 5px solid hsl(212, 86%, 64%);
+    position: absolute;
+    left: 950px;
+  bottom: 175px;
+
+}
+
+
+
+
+
